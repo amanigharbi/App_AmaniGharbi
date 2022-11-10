@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">App_AmaniGharbi</string>
-    <string name="welcome_title">Welcome to 4In Shield!
-Sign in to continue</string>
-    <string name="button_1">Sign in with Email</string>
-    <string name="button_2">Sign in with Gmail</string>
-    <string name="button_3">Sign in with Facebook</string>
+    <string name="welcome_title">Welcome to 4In Shield!</string>
+    <string name="welcome_title_2">Sign in to continue</string>
+    <string name="button_1">Sign in with Email         </string>
+    <string name="button_2">Sign in with Gmail  </string>
+    <string name="button_3">Sign in with Facebook  </string>
     <string name="no_account">No account? Sign up</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->

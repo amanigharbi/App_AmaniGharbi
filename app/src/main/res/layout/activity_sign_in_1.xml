@@ -4,25 +4,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn1Activity"
-    android:background="@color/Blue4in1">
+    android:background="@color/Blue4in1"
+    tools:context=".SignIn1Activity">
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-       <ImageView
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_marginTop="40dp"
-           android:layout_marginLeft="140dp"
-           android:src="@drawable/logo"
-           />
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/welcome_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="190dp"
         android:text="@string/welcome_title"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="18dp" />
 
+    <TextView
+        android:id="@+id/welcome_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/welcome_title_2"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="290dp"
+        android:background="@color/white"
+        android:drawableRight="@drawable/logo_email"
+        android:paddingRight="20dp"
+        android:text="@string/button_1"
+        android:textAllCaps="false"
+        android:textColor="@color/Blue4in1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:background="@color/white"
+        android:drawableRight="@drawable/logo_google"
+        android:paddingRight="20dp"
+        android:text="@string/button_2"
+        android:textAllCaps="false"
+        android:textColor="@color/Blue4in1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="430dp"
+        android:background="@color/white"
+        android:drawableRight="@drawable/logo_fb"
+        android:paddingRight="20dp"
+        android:shadowRadius="100"
+        android:text="@string/button_3"
+        android:textAllCaps="false"
+
+        android:textColor="@color/Blue4in1"
+       />
+
+    <TextView
+        android:id="@+id/no_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="520dp"
+        android:linksClickable="true"
+        android:text="@string/no_account"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
