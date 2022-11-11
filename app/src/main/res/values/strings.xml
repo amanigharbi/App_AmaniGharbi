@@ -10,6 +10,23 @@
     <string name="terms">I herby accept terms and conditions</string>
     <string name="txt_choose">Who is going to use this device?</string>
     <string name="txt_bienvenue">Welcom to 4IN Shield</string>
+    <string name="title_device">Please add your child’s devices</string>
+    <string name="p1_device">The information from your child’s device will help us to assess their mental health, duration of sleep, places visited, used applications  etc.
+It also gives you the ability to block or allow installed applications</string>
+    <string name="p2_device">Please follow the following steps: </string>
+    <string name="l1">1. Bring your child’s mobile phone</string>
+    <string name="l2">2. Scan this QR code with your child’s device camera</string>
+    <string name="l3">3. You will be redirected to the 4IN shield application download page</string>
+    <string name="l4">4. Once the application is installed, click Next </string>
+    <string name="title_social">Please enter your child’s social media account information </string>
+    <string name="p_social">This information will help us to protect your child from online abusive content and cyberharassment</string>
+    <string name="edittext_1">Social network platform (Drop down)</string>
+    <string name="edittext_2">Social network user name</string>
+    <string name="edittext_3">Social network page URL</string>
+    <string name="title_confirm_profile">Your child’s profile information has been successfully added</string>
+    <string name="btn1_confirm">Add new profile</string>
+    <string name="btn2_confirm">Continue</string>
+    <string name="btn3_confirm">Modify profile information</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -24,4 +41,5 @@
     <string name="title_activity_space_chose">SpaceChoseActivity</string>
     <string name="title_activity_bienvenue">BienvenueActivity</string>
     <string name="title_activity_add_device">AddDeviceActivity</string>
+    <string name="title_activity_confirm_profile">ConfirmProfileActivity</string>
 </resources>

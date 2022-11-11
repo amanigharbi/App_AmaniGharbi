@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue4in1"
+    tools:context=".AddProfileActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/social_profile" />
+
+    <TextView
+        android:id="@+id/title_social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/title_social"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/welcome_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/p_social"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:hint="@string/edittext_1"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="415dp"
+        android:hint="@string/edittext_2"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/edit_3"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="480dp"
+        android:hint="@string/edittext_3"
+        android:padding="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round2"
+        android:drawableRight="@drawable/next"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:scaleType="centerCrop"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/Blue4in1" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_skip"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/round2"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:scaleType="centerCrop"
+        android:text="Skip"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/Blue4in1" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

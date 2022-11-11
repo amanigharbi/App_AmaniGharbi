@@ -45,6 +45,7 @@
        android:layout_marginLeft="30dp"
        android:layout_marginTop="290dp"
        android:hint="Username"
+       android:padding="10dp"
        />
     <EditText
         android:id="@+id/pwd"
@@ -54,6 +55,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="370dp"
         android:hint="Password"
+        android:padding="10dp"
         />
 
     <androidx.appcompat.widget.AppCompatButton

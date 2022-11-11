@@ -45,6 +45,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="280dp"
         android:hint="Username"
+        android:padding="10dp"
         />
     <EditText
         android:id="@+id/email"
@@ -54,6 +55,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="360dp"
         android:hint="Email"
+        android:padding="10dp"
         />
     <EditText
         android:id="@+id/pwd"
@@ -63,6 +65,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="440dp"
         android:hint="Password"
+        android:padding="10dp"
         />
     <EditText
         android:id="@+id/confirm_pwd"
@@ -72,6 +75,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="520dp"
         android:hint="Confirm your password"
+        android:padding="10dp"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/sign_in"
