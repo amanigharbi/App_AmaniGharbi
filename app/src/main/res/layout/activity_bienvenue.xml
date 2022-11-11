@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue4in1"
+    tools:context=".BienvenueActivity">
+
+    <!--<androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="650dp"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/trans"
+        app:cardElevation="3dp">
+-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/txt_bienvenue"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+        <ImageView
+
+            android:id="@+id/imgIntro"
+            android:layout_width="420dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+
+            android:layout_marginBottom="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bienvenue"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="620dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/round2"
+            android:drawableEnd="@drawable/next"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:scaleType="centerCrop"
+            android:text="Start"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue4in1" />
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

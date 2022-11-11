@@ -8,6 +8,8 @@
     <string name="no_account">No account? Sign up</string>
     <string name="forgot">Forgot password?</string>
     <string name="terms">I herby accept terms and conditions</string>
+    <string name="txt_choose">Who is going to use this device?</string>
+    <string name="txt_bienvenue">Welcom to 4IN Shield</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -19,4 +21,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_sign_in2">SignIn2Activity</string>
     <string name="title_activity_sign_in3">SignIn3Activity</string>
+    <string name="title_activity_space_chose">SpaceChoseActivity</string>
+    <string name="title_activity_bienvenue">BienvenueActivity</string>
+    <string name="title_activity_add_device">AddDeviceActivity</string>
 </resources>
