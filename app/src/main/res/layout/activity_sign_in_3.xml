@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Blue4in1"
-    tools:context=".SignIn2Activity">
+    tools:context=".SignIn3Activity">
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -37,31 +37,48 @@
         android:textColor="@color/white"
         android:textSize="18dp" />
 
-   <EditText
-       android:id="@+id/username"
-       android:layout_width="300dp"
-       android:layout_height="50dp"
-       android:background="@drawable/round2"
-       android:layout_marginLeft="30dp"
-       android:layout_marginTop="290dp"
-       android:hint="Username"
-       />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:hint="Username"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="360dp"
+        android:hint="Email"
+        />
     <EditText
         android:id="@+id/pwd"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:background="@drawable/round2"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="370dp"
+        android:layout_marginTop="440dp"
         android:hint="Password"
         />
-
+    <EditText
+        android:id="@+id/confirm_pwd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="520dp"
+        android:hint="Confirm your password"
+        />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70pt"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="630dp"
         android:background="@drawable/round2"
         android:text="Sign in"
         android:textAllCaps="false"
@@ -73,10 +90,10 @@
         android:id="@+id/forgot_pwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="580dp"
         android:linksClickable="true"
-        android:text="@string/forgot"
+        android:text="@string/terms"
         android:textColor="@color/white"
         android:textSize="18dp"
         android:clickable="true"
