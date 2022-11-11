@@ -4,31 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Blue4in1"
     tools:context=".SignIn2Activity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.App_AmaniGharbi.NoActionBar.AppBarOverlay">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.App_AmaniGharbi.NoActionBar.PopupOverlay" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <include layout="@layout/content_main2" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo" />
 
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/welcome_title"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/welcome_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/welcome_title_2"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+   <EditText
+       android:id="@+id/username"
+       android:layout_width="300dp"
+       android:layout_height="50dp"
+       android:background="@drawable/round2"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="290dp"
+       android:hint="Username"
+       />
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"
+        android:hint="Password"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70pt"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/round2"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="@color/Blue4in1"
+        />
+    <TextView
+        android:id="@+id/forgot_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="540dp"
+        android:linksClickable="true"
+        android:text="@string/forgot"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:clickable="true"
+        />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

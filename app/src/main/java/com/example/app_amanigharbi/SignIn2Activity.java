@@ -1,28 +1,28 @@
 package com.example.app_amanigharbi;
 
+
+
+import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.View;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
+import android.widget.TextView;
 
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import com.example.app_amanigharbi.databinding.ActivitySignIn2Binding;
 
 public class SignIn2Activity extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in_2);
-
+        TextView forgot_pwd = findViewById(R.id.forgot_pwd);
+        SpannableString content =new SpannableString(forgot_pwd.getText());
+        content.setSpan(new UnderlineSpan(),0,content.length(),0);
+        forgot_pwd.setText(content);
     }
 }

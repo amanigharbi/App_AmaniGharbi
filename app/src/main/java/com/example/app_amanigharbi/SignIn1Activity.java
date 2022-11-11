@@ -1,8 +1,11 @@
 package com.example.app_amanigharbi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
+import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 
@@ -21,5 +24,17 @@ public class SignIn1Activity extends AppCompatActivity {
         content.setSpan(new UnderlineSpan(),0,content.length(),0);
         no_account.setText(content);
 
+        String TAG = "yourLogCatTag";
+        no_account.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View viewIn) {
+                try {
+                    Intent intent = new Intent(SignIn1Activity.this,SignIn2Activity.class);
+                    startActivity(intent);
+                } catch (Exception except) {
+                    Log.e(TAG,"there is a problem "+except.getMessage());
+                }
+            }
+        });
     }
 }
