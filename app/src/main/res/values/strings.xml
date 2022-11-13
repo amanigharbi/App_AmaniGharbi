@@ -33,7 +33,12 @@ It also gives you the ability to block or allow installed applications</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
+    <string name="title_add_child">Please enter the required information to complete your child’s profile</string>
+    <string name="cong">Congradulation! </string>
+    <string name="txt_cong">You have successfully completed you child profile.</string>
+    <string name="add_new_child">Add another child</string>
+    <string name="txt_cong2">Thank you for your confidence in us.</string>
+    <string name="go_dashbord">Go to dashboard</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_sign_in2">SignIn2Activity</string>
@@ -42,4 +47,12 @@ It also gives you the ability to block or allow installed applications</string>
     <string name="title_activity_bienvenue">BienvenueActivity</string>
     <string name="title_activity_add_device">AddDeviceActivity</string>
     <string name="title_activity_confirm_profile">ConfirmProfileActivity</string>
+    <string name="title_activity_add_child">AddChildActivity</string>
+    <string name="title_activity_congrats_wizard_end">CongratsWizardEndActivity</string>
+    <string name="title_activity_congrats_wizard_end2">CongratsWizardEnd2Activity</string>
+    <string name="title_activity_child_dashboard">ChildDashboardActivity</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue4in1"
+    tools:context=".CongratsWizardEnd2Activity">
+
+
+        <TextView
+            android:id="@+id/title_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/txt_cong2"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="225dp"
+            android:src="@drawable/cong2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/round2"
+            android:drawableRight="@drawable/next"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:scaleType="centerCrop"
+            android:text="@string/go_dashbord"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/Blue4in1"
+            android:padding="10dp"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -16,17 +16,16 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.app_amanigharbi.databinding.ActivityConfirmProfileBinding;
+import com.example.app_amanigharbi.databinding.ActivityCongratsWizardEndBinding;
 
-public class ConfirmProfileActivity extends AppCompatActivity {
+public class CongratsWizardEndActivity extends AppCompatActivity {
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_confirm_profile);
+        setContentView(R.layout.activity_congrats_wizard_end);
         AppCompatButton btn = findViewById(R.id.btn2_confirm);
         btn.setOnClickListener(new View.OnClickListener() {
             String TAG = "yourLogCatTag";
@@ -34,7 +33,7 @@ public class ConfirmProfileActivity extends AppCompatActivity {
             public void onClick(View view)
             {
                 try {
-                    Intent intent = new Intent(ConfirmProfileActivity.this,AddChildActivity.class);
+                    Intent intent = new Intent(CongratsWizardEndActivity.this,CongratsWizardEnd2Activity.class);
                     startActivity(intent);
                 } catch (Exception except) {
                     Log.e(TAG,"there is a problem "+except.getMessage());

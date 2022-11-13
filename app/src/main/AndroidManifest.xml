@@ -14,6 +14,50 @@
         android:theme="@style/Theme.App_AmaniGharbi.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".BottomNavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_navigation">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ChildDashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_child_dashboard"
+            android:theme="@style/Theme.App_AmaniGharbi.NoActionBar.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CongratsWizardEnd2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_congrats_wizard_end2"
+            android:theme="@style/Theme.App_AmaniGharbi.NoActionBar.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CongratsWizardEndActivity"
+            android:exported="false"
+            android:label="@string/title_activity_congrats_wizard_end"
+            android:theme="@style/Theme.App_AmaniGharbi.NoActionBar.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddChildActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_child"
+            android:theme="@style/Theme.App_AmaniGharbi.NoActionBar.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ConfirmProfileActivity"
             android:exported="false"
             android:label="@string/title_activity_confirm_profile"

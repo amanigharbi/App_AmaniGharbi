@@ -16,25 +16,24 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.app_amanigharbi.databinding.ActivityConfirmProfileBinding;
+import com.example.app_amanigharbi.databinding.ActivityAddChildBinding;
 
-public class ConfirmProfileActivity extends AppCompatActivity {
+public class AddChildActivity extends AppCompatActivity {
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_confirm_profile);
-        AppCompatButton btn = findViewById(R.id.btn2_confirm);
+        setContentView(R.layout.activity_add_child);
+        AppCompatButton btn = findViewById(R.id.btn_next);
         btn.setOnClickListener(new View.OnClickListener() {
             String TAG = "yourLogCatTag";
             @Override
             public void onClick(View view)
             {
                 try {
-                    Intent intent = new Intent(ConfirmProfileActivity.this,AddChildActivity.class);
+                    Intent intent = new Intent(AddChildActivity.this,CongratsWizardEndActivity.class);
                     startActivity(intent);
                 } catch (Exception except) {
                     Log.e(TAG,"there is a problem "+except.getMessage());

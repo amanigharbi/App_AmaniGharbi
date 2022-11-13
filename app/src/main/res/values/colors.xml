@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="Blue4in1">#3F77B6</color>
     <color name="trans">#00000000</color>
+    <color name="back">#E5E5E5</color>
+    <color name="item">#5D4AFF</color>
 </resources>
