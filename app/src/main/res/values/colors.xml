@@ -11,4 +11,7 @@
     <color name="trans">#00000000</color>
     <color name="back">#E5E5E5</color>
     <color name="item">#5D4AFF</color>
+    <color name="color_txt">#829AC7</color>
+    <color name="gris">#B5B5C3</color>
+    <color name="red">#FF0505</color>
 </resources>

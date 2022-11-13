@@ -11,17 +11,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/Blue4in1"
+        style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
+        android:fitsSystemWindows="true"
         >
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/topAppBar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/Blue4in1"
 
+            android:textAlignment="center"
+            app:navigationIcon="@drawable/ic_menu_24dp"
+            style="@style/Widget.MaterialComponents.Toolbar.PrimarySurface"
+            android:background="@android:color/transparent"
+            android:elevation="0dp"
+            />
+
+
+        <TextView
+            android:text="Child first name"
+            android:textAlignment="center"
+            android:textSize="18sp"
+             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="-40dp"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+           android:src="@drawable/user_avatar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="-25dp"
+
+            />
        />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_child_dashboard" />
+        <include layout="@layout/content_child_dashboard" />
 <include layout="@layout/activity_bottom_navigation"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

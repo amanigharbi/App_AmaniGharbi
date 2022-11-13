@@ -52,7 +52,8 @@ It also gives you the ability to block or allow installed applications</string>
     <string name="title_activity_congrats_wizard_end2">CongratsWizardEnd2Activity</string>
     <string name="title_activity_child_dashboard">ChildDashboardActivity</string>
     <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
-    <string name="title_home">Home</string>
+    <string name="title_phone">Phone usage</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_social_media">Social media</string>
+    <string name="title_alert">Alerts</string>
 </resources>

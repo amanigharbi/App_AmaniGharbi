@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/icon"
-        android:title="Dashbaord" />
-
     <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/icon"
-        android:title="Phone usage" />
+        android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/navigation_phone"
+        android:icon="@drawable/icon"
+        android:title="@string/title_phone" />
+
+
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_social"
         android:icon="@drawable/icon"
-        android:title="Social media" />
+        android:title="@string/title_social_media" />
 
     <item
         android:id="@+id/alerts"
         android:icon="@drawable/icon"
-        android:title="Alerts" />
+        android:title="@string/title_alert" />
 
 </menu>

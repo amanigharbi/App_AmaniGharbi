@@ -1,4 +1,4 @@
-package com.example.app_amanigharbi.ui.notifications;
+package com.example.app_amanigharbi.ui.social;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,21 +10,21 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.app_amanigharbi.databinding.FragmentNotificationsBinding;
+import com.example.app_amanigharbi.databinding.FragmentSocialBinding;
 
-public class NotificationsFragment extends Fragment {
+public class SocialFragment extends Fragment {
 
-    private FragmentNotificationsBinding binding;
+    private FragmentSocialBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NotificationsViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(NotificationsViewModel.class);
+        SocialViewModel notificationsViewModel =
+                new ViewModelProvider(this).get(SocialViewModel.class);
 
-        binding = FragmentNotificationsBinding.inflate(inflater, container, false);
+        binding = FragmentSocialBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
+        final TextView textView = binding.textSocial;
         notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }

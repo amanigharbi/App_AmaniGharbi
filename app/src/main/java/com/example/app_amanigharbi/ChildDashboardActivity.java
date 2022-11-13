@@ -7,6 +7,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
+import android.widget.Toolbar;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -23,7 +24,7 @@ public class ChildDashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_child_dashboard);
 
+        }
 
 
     }
-}
