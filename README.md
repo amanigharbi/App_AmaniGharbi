@@ -2,8 +2,8 @@
 Intégration des interfaces graphiques (via Figma) dans une application mobile Android native.
 
 ## Planning :
-- Date de début : **10 Nouvembre 2022**
-- Date de fin : **13 Nouvembre 2022**
+- Date de début : **10 Novembre 2022**
+- Date de fin : **13 Novembre 2022**
 
 ## Développé par :
 - Amani Gharbi (amanigharbi9@gmail.com)
