@@ -26,7 +26,9 @@ public class CongratsWizardEnd2Activity extends AppCompatActivity {
             public void onClick(View view)
             {
                 try {
+                    //Intent intent = new Intent(CongratsWizardEnd2Activity.this,ChildListActivity.class);
                     Intent intent = new Intent(CongratsWizardEnd2Activity.this,ChildDashboardActivity.class);
+
                     startActivity(intent);
                 } catch (Exception except) {
                     Log.e(TAG,"there is a problem "+except.getMessage());
