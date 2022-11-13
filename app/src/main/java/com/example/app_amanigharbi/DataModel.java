@@ -1,7 +1,6 @@
 package com.example.app_amanigharbi;
 
 
-
 public class DataModel {
 
     int image;
@@ -9,8 +8,8 @@ public class DataModel {
     int img;
     int id_;
 
-    public DataModel(int image,String name, int img, int id_ ) {
-        this.image=image;
+    public DataModel(int image, String name, int img, int id_) {
+        this.image = image;
         this.name = name;
         this.img = img;
         this.id_ = id_;
@@ -22,8 +21,7 @@ public class DataModel {
         return name;
     }
 
-
-    public Integer getImg() {
+    public int getImg() {
         return img;
     }
 

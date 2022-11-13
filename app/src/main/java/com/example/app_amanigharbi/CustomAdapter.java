@@ -5,10 +5,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.ArrayList;
 
-public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder>{
+public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
     private ArrayList<DataModel> dataSet;
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -25,6 +27,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             this.textViewName = (TextView) itemView.findViewById(R.id.textViewName);
             this.ImgViewVersion = (ImageView) itemView.findViewById(R.id.img_alert);
         }
+
+
     }
 
     public CustomAdapter(ArrayList<DataModel> data) {
@@ -43,18 +47,17 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         return myViewHolder;
     }
 
+
+
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int listPosition) {
-
         TextView textViewName = holder.textViewName;
         ImageView ImgViewVersion = holder.ImgViewVersion;
         ImageView imageView = holder.imageViewIcon;
 
-
-
         imageView.setImageResource(dataSet.get(listPosition).getImage());
         textViewName.setText(dataSet.get(listPosition).getName());
-        ImgViewVersion.setImageResource(dataSet.get(listPosition).getImage());
+        ImgViewVersion.setImageResource(dataSet.get(listPosition).getImg());
     }
 
     @Override

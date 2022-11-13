@@ -28,7 +28,7 @@ public class BienvenueActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bienvenue);
         AppCompatButton btn = findViewById(R.id.btn_start);
         btn.setOnClickListener(new View.OnClickListener() {
-            String TAG = "yourLogCatTag";
+            String TAG = "Error";
             @Override
             public void onClick(View view)
             {

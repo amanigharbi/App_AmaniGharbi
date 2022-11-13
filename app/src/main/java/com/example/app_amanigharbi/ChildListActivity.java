@@ -1,5 +1,8 @@
 package com.example.app_amanigharbi;
 
+import static com.example.app_amanigharbi.R.id.imageView;
+import static com.example.app_amanigharbi.R.id.textViewName;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.cardview.widget.CardView;
 import androidx.navigation.NavController;
@@ -60,7 +64,6 @@ public class ChildListActivity extends AppCompatActivity {
 
         adapter = new CustomAdapter(data);
         recyclerView.setAdapter(adapter);
-
 
     }
 

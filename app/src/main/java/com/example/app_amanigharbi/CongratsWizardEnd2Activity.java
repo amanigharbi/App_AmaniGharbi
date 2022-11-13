@@ -21,7 +21,7 @@ public class CongratsWizardEnd2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_congrats_wizard_end2);
         AppCompatButton btn = findViewById(R.id.btn1_go);
         btn.setOnClickListener(new View.OnClickListener() {
-            String TAG = "yourLogCatTag";
+            String TAG = "Error";
             @Override
             public void onClick(View view)
             {

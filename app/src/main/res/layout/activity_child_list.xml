@@ -6,29 +6,34 @@
     android:layout_height="match_parent"
     android:background="@color/Blue4in1"
     tools:context=".ChildListActivity">
-  <TextView
-      android:text="Child first name"
-      android:textAlignment="center"
-      android:textSize="18sp"
-      android:layout_height="wrap_content"
-      android:layout_width="wrap_content"
-      android:layout_marginLeft="125dp"
-      android:layout_marginTop="-40dp"
-      android:textColor="@color/white"
-      />
 
-  <ImageView
-      android:src="@drawable/user_avatar"
-      android:layout_height="wrap_content"
-      android:layout_width="wrap_content"
-      android:layout_marginLeft="320dp"
-      android:layout_marginTop="-25dp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="25dp"
+        android:text="Child first name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
-      />
-  <androidx.recyclerview.widget.RecyclerView
-      android:id="@+id/my_recycler_view"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:scrollbars="vertical">
-  </androidx.recyclerview.widget.RecyclerView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/user_avatar"
+
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
